@@ -1,0 +1,6 @@
+framework module Pods_PegasusPathTests {
+  umbrella header "Pods-PegasusPathTests-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,772 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3C3317A020B6B01E00F83CAF /* Pods_PegasusPathTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 85D2BEED572AE4E8218254D1 /* Pods_PegasusPathTests.framework */; };
+		465773405282D8BBCA026B3B /* Pods_PegasusPathUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EDE0EF53C59CE2875A072218 /* Pods_PegasusPathUITests.framework */; };
+		A7667349DCB70E0409F80E4C /* Pods_PegasusPath.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A88EB02E46C2D57B77A593A0 /* Pods_PegasusPath.framework */; };
+		D8A18CC62046D28F008D9CD5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8A18CC52046D28F008D9CD5 /* AppDelegate.swift */; };
+		D8A18CC82046D28F008D9CD5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8A18CC72046D28F008D9CD5 /* ViewController.swift */; };
+		D8A18CCB2046D28F008D9CD5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D8A18CC92046D28F008D9CD5 /* Main.storyboard */; };
+		D8A18CCD2046D28F008D9CD5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D8A18CCC2046D28F008D9CD5 /* Assets.xcassets */; };
+		D8A18CDB2046D290008D9CD5 /* PegasusPathTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8A18CDA2046D290008D9CD5 /* PegasusPathTests.swift */; };
+		D8A18CE62046D290008D9CD5 /* PegasusPathUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8A18CE52046D290008D9CD5 /* PegasusPathUITests.swift */; };
+		D8A18CF42046D2BF008D9CD5 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = D8A18CF32046D2BF008D9CD5 /* GoogleService-Info.plist */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D8A18CD72046D28F008D9CD5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D8A18CBA2046D28F008D9CD5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D8A18CC12046D28F008D9CD5;
+			remoteInfo = PegasusPath;
+		};
+		D8A18CE22046D290008D9CD5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D8A18CBA2046D28F008D9CD5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D8A18CC12046D28F008D9CD5;
+			remoteInfo = PegasusPath;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		31B83AB33D92D09BBB956BE9 /* Pods-PegasusPathTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PegasusPathTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-PegasusPathTests/Pods-PegasusPathTests.release.xcconfig"; sourceTree = "<group>"; };
+		821ED1874C7C71B9C8E251B5 /* Pods-PegasusPathTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PegasusPathTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PegasusPathTests/Pods-PegasusPathTests.debug.xcconfig"; sourceTree = "<group>"; };
+		85D2BEED572AE4E8218254D1 /* Pods_PegasusPathTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PegasusPathTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A88EB02E46C2D57B77A593A0 /* Pods_PegasusPath.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PegasusPath.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B940E7DDD423A42035837FF7 /* Pods-PegasusPathUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PegasusPathUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PegasusPathUITests/Pods-PegasusPathUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		C76B15C47FF74ABB081A3D27 /* Pods-PegasusPath.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PegasusPath.release.xcconfig"; path = "Pods/Target Support Files/Pods-PegasusPath/Pods-PegasusPath.release.xcconfig"; sourceTree = "<group>"; };
+		CA053B4F14A194477F4E5DFE /* Pods-PegasusPath.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PegasusPath.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PegasusPath/Pods-PegasusPath.debug.xcconfig"; sourceTree = "<group>"; };
+		D8A18CC22046D28F008D9CD5 /* PegasusPath.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PegasusPath.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D8A18CC52046D28F008D9CD5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D8A18CC72046D28F008D9CD5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D8A18CCA2046D28F008D9CD5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D8A18CCC2046D28F008D9CD5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D8A18CD12046D28F008D9CD5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D8A18CD62046D28F008D9CD5 /* PegasusPathTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PegasusPathTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D8A18CDA2046D290008D9CD5 /* PegasusPathTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PegasusPathTests.swift; sourceTree = "<group>"; };
+		D8A18CDC2046D290008D9CD5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D8A18CE12046D290008D9CD5 /* PegasusPathUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PegasusPathUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D8A18CE52046D290008D9CD5 /* PegasusPathUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PegasusPathUITests.swift; sourceTree = "<group>"; };
+		D8A18CE72046D290008D9CD5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D8A18CF32046D2BF008D9CD5 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		E6DD3D890CAF8300F5ADF73C /* Pods-PegasusPathUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PegasusPathUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-PegasusPathUITests/Pods-PegasusPathUITests.release.xcconfig"; sourceTree = "<group>"; };
+		EDE0EF53C59CE2875A072218 /* Pods_PegasusPathUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PegasusPathUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D8A18CBF2046D28F008D9CD5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A7667349DCB70E0409F80E4C /* Pods_PegasusPath.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D8A18CD32046D28F008D9CD5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3C3317A020B6B01E00F83CAF /* Pods_PegasusPathTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D8A18CDE2046D290008D9CD5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				465773405282D8BBCA026B3B /* Pods_PegasusPathUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		719E45F1970390F48BA7F788 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				CA053B4F14A194477F4E5DFE /* Pods-PegasusPath.debug.xcconfig */,
+				C76B15C47FF74ABB081A3D27 /* Pods-PegasusPath.release.xcconfig */,
+				821ED1874C7C71B9C8E251B5 /* Pods-PegasusPathTests.debug.xcconfig */,
+				31B83AB33D92D09BBB956BE9 /* Pods-PegasusPathTests.release.xcconfig */,
+				B940E7DDD423A42035837FF7 /* Pods-PegasusPathUITests.debug.xcconfig */,
+				E6DD3D890CAF8300F5ADF73C /* Pods-PegasusPathUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		7BC382204A9AE3FA91D34895 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A88EB02E46C2D57B77A593A0 /* Pods_PegasusPath.framework */,
+				85D2BEED572AE4E8218254D1 /* Pods_PegasusPathTests.framework */,
+				EDE0EF53C59CE2875A072218 /* Pods_PegasusPathUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D8A18CB92046D28F008D9CD5 = {
+			isa = PBXGroup;
+			children = (
+				D8A18CC42046D28F008D9CD5 /* PegasusPath */,
+				D8A18CD92046D290008D9CD5 /* PegasusPathTests */,
+				D8A18CE42046D290008D9CD5 /* PegasusPathUITests */,
+				D8A18CC32046D28F008D9CD5 /* Products */,
+				719E45F1970390F48BA7F788 /* Pods */,
+				7BC382204A9AE3FA91D34895 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		D8A18CC32046D28F008D9CD5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D8A18CC22046D28F008D9CD5 /* PegasusPath.app */,
+				D8A18CD62046D28F008D9CD5 /* PegasusPathTests.xctest */,
+				D8A18CE12046D290008D9CD5 /* PegasusPathUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D8A18CC42046D28F008D9CD5 /* PegasusPath */ = {
+			isa = PBXGroup;
+			children = (
+				D8A18CC52046D28F008D9CD5 /* AppDelegate.swift */,
+				D8A18CC72046D28F008D9CD5 /* ViewController.swift */,
+				D8A18CC92046D28F008D9CD5 /* Main.storyboard */,
+				D8A18CCC2046D28F008D9CD5 /* Assets.xcassets */,
+				D8A18CF32046D2BF008D9CD5 /* GoogleService-Info.plist */,
+				D8A18CD12046D28F008D9CD5 /* Info.plist */,
+			);
+			path = PegasusPath;
+			sourceTree = "<group>";
+		};
+		D8A18CD92046D290008D9CD5 /* PegasusPathTests */ = {
+			isa = PBXGroup;
+			children = (
+				D8A18CDA2046D290008D9CD5 /* PegasusPathTests.swift */,
+				D8A18CDC2046D290008D9CD5 /* Info.plist */,
+			);
+			path = PegasusPathTests;
+			sourceTree = "<group>";
+		};
+		D8A18CE42046D290008D9CD5 /* PegasusPathUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D8A18CE52046D290008D9CD5 /* PegasusPathUITests.swift */,
+				D8A18CE72046D290008D9CD5 /* Info.plist */,
+			);
+			path = PegasusPathUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D8A18CC12046D28F008D9CD5 /* PegasusPath */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D8A18CEA2046D290008D9CD5 /* Build configuration list for PBXNativeTarget "PegasusPath" */;
+			buildPhases = (
+				33E3F6B4041398A43162922C /* [CP] Check Pods Manifest.lock */,
+				D8A18CBE2046D28F008D9CD5 /* Sources */,
+				D8A18CBF2046D28F008D9CD5 /* Frameworks */,
+				D8A18CC02046D28F008D9CD5 /* Resources */,
+				109452FFE519D6EEACF4487F /* [CP] Embed Pods Frameworks */,
+				80BEE7AED7DFB8CFBC5D2859 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PegasusPath;
+			productName = PegasusPath;
+			productReference = D8A18CC22046D28F008D9CD5 /* PegasusPath.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D8A18CD52046D28F008D9CD5 /* PegasusPathTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D8A18CED2046D290008D9CD5 /* Build configuration list for PBXNativeTarget "PegasusPathTests" */;
+			buildPhases = (
+				8F67A47B4A9F75C011367DD6 /* [CP] Check Pods Manifest.lock */,
+				D8A18CD22046D28F008D9CD5 /* Sources */,
+				D8A18CD32046D28F008D9CD5 /* Frameworks */,
+				D8A18CD42046D28F008D9CD5 /* Resources */,
+				EB55EC9E616751D5C3F2AEF4 /* [CP] Embed Pods Frameworks */,
+				F08A4BFD87CF3FB441DF88C9 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D8A18CD82046D28F008D9CD5 /* PBXTargetDependency */,
+			);
+			name = PegasusPathTests;
+			productName = PegasusPathTests;
+			productReference = D8A18CD62046D28F008D9CD5 /* PegasusPathTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D8A18CE02046D290008D9CD5 /* PegasusPathUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D8A18CF02046D290008D9CD5 /* Build configuration list for PBXNativeTarget "PegasusPathUITests" */;
+			buildPhases = (
+				CC5759F532A1FD1A9D7FBB20 /* [CP] Check Pods Manifest.lock */,
+				D8A18CDD2046D290008D9CD5 /* Sources */,
+				D8A18CDE2046D290008D9CD5 /* Frameworks */,
+				D8A18CDF2046D290008D9CD5 /* Resources */,
+				821DCB8443ACD4B4392A410C /* [CP] Embed Pods Frameworks */,
+				759247FB7610377969AF2CD1 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D8A18CE32046D290008D9CD5 /* PBXTargetDependency */,
+			);
+			name = PegasusPathUITests;
+			productName = PegasusPathUITests;
+			productReference = D8A18CE12046D290008D9CD5 /* PegasusPathUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D8A18CBA2046D28F008D9CD5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "Huey Padua";
+				TargetAttributes = {
+					D8A18CC12046D28F008D9CD5 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					D8A18CD52046D28F008D9CD5 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = D8A18CC12046D28F008D9CD5;
+					};
+					D8A18CE02046D290008D9CD5 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = D8A18CC12046D28F008D9CD5;
+					};
+				};
+			};
+			buildConfigurationList = D8A18CBD2046D28F008D9CD5 /* Build configuration list for PBXProject "PegasusPath" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D8A18CB92046D28F008D9CD5;
+			productRefGroup = D8A18CC32046D28F008D9CD5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D8A18CC12046D28F008D9CD5 /* PegasusPath */,
+				D8A18CD52046D28F008D9CD5 /* PegasusPathTests */,
+				D8A18CE02046D290008D9CD5 /* PegasusPathUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D8A18CC02046D28F008D9CD5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D8A18CF42046D2BF008D9CD5 /* GoogleService-Info.plist in Resources */,
+				D8A18CCD2046D28F008D9CD5 /* Assets.xcassets in Resources */,
+				D8A18CCB2046D28F008D9CD5 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D8A18CD42046D28F008D9CD5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D8A18CDF2046D290008D9CD5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		109452FFE519D6EEACF4487F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-PegasusPath/Pods-PegasusPath-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/BoringSSL/openssl.framework",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/Protobuf/Protobuf.framework",
+				"${BUILT_PRODUCTS_DIR}/gRPC/GRPCClient.framework",
+				"${BUILT_PRODUCTS_DIR}/gRPC-Core/grpc.framework",
+				"${BUILT_PRODUCTS_DIR}/gRPC-ProtoRPC/ProtoRPC.framework",
+				"${BUILT_PRODUCTS_DIR}/gRPC-RxLibrary/RxLibrary.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/openssl.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Protobuf.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GRPCClient.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/grpc.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ProtoRPC.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxLibrary.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PegasusPath/Pods-PegasusPath-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		33E3F6B4041398A43162922C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PegasusPath-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		759247FB7610377969AF2CD1 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PegasusPathUITests/Pods-PegasusPathUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		80BEE7AED7DFB8CFBC5D2859 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PegasusPath/Pods-PegasusPath-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		821DCB8443ACD4B4392A410C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PegasusPathUITests/Pods-PegasusPathUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8F67A47B4A9F75C011367DD6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PegasusPathTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CC5759F532A1FD1A9D7FBB20 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PegasusPathUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EB55EC9E616751D5C3F2AEF4 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PegasusPathTests/Pods-PegasusPathTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F08A4BFD87CF3FB441DF88C9 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PegasusPathTests/Pods-PegasusPathTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D8A18CBE2046D28F008D9CD5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D8A18CC82046D28F008D9CD5 /* ViewController.swift in Sources */,
+				D8A18CC62046D28F008D9CD5 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D8A18CD22046D28F008D9CD5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D8A18CDB2046D290008D9CD5 /* PegasusPathTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D8A18CDD2046D290008D9CD5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D8A18CE62046D290008D9CD5 /* PegasusPathUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D8A18CD82046D28F008D9CD5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D8A18CC12046D28F008D9CD5 /* PegasusPath */;
+			targetProxy = D8A18CD72046D28F008D9CD5 /* PBXContainerItemProxy */;
+		};
+		D8A18CE32046D290008D9CD5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D8A18CC12046D28F008D9CD5 /* PegasusPath */;
+			targetProxy = D8A18CE22046D290008D9CD5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D8A18CC92046D28F008D9CD5 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D8A18CCA2046D28F008D9CD5 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D8A18CE82046D290008D9CD5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D8A18CE92046D290008D9CD5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D8A18CEB2046D290008D9CD5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CA053B4F14A194477F4E5DFE /* Pods-PegasusPath.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = PegasusPath/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Padua.PegasusPath;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D8A18CEC2046D290008D9CD5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C76B15C47FF74ABB081A3D27 /* Pods-PegasusPath.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = PegasusPath/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Padua.PegasusPath;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		D8A18CEE2046D290008D9CD5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 821ED1874C7C71B9C8E251B5 /* Pods-PegasusPathTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = PegasusPathTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Padua.PegasusPathTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PegasusPath.app/PegasusPath";
+			};
+			name = Debug;
+		};
+		D8A18CEF2046D290008D9CD5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 31B83AB33D92D09BBB956BE9 /* Pods-PegasusPathTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = PegasusPathTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Padua.PegasusPathTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PegasusPath.app/PegasusPath";
+			};
+			name = Release;
+		};
+		D8A18CF12046D290008D9CD5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B940E7DDD423A42035837FF7 /* Pods-PegasusPathUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = PegasusPathUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Padua.PegasusPathUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = PegasusPath;
+			};
+			name = Debug;
+		};
+		D8A18CF22046D290008D9CD5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E6DD3D890CAF8300F5ADF73C /* Pods-PegasusPathUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = PegasusPathUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Padua.PegasusPathUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = PegasusPath;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D8A18CBD2046D28F008D9CD5 /* Build configuration list for PBXProject "PegasusPath" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D8A18CE82046D290008D9CD5 /* Debug */,
+				D8A18CE92046D290008D9CD5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D8A18CEA2046D290008D9CD5 /* Build configuration list for PBXNativeTarget "PegasusPath" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D8A18CEB2046D290008D9CD5 /* Debug */,
+				D8A18CEC2046D290008D9CD5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D8A18CED2046D290008D9CD5 /* Build configuration list for PBXNativeTarget "PegasusPathTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D8A18CEE2046D290008D9CD5 /* Debug */,
+				D8A18CEF2046D290008D9CD5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D8A18CF02046D290008D9CD5 /* Build configuration list for PBXNativeTarget "PegasusPathUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D8A18CF12046D290008D9CD5 /* Debug */,
+				D8A18CF22046D290008D9CD5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D8A18CBA2046D28F008D9CD5 /* Project object */;
+}
