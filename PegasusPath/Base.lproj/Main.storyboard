@@ -10,10 +10,10 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--Login Controller-->
+        <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="LoginController" customModule="PegasusPath" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="PegasusPath" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -92,43 +92,46 @@
             </objects>
             <point key="canvasLocation" x="-578.39999999999998" y="16.641679160419791"/>
         </scene>
-        <!--View Controller-->
+        <!--LogoutController-->
         <scene sceneID="vDK-Is-hcl">
             <objects>
-                <viewController id="nsF-Wy-FBQ" sceneMemberID="viewController">
+                <viewController title="LogoutController" id="nsF-Wy-FBQ" customClass="LogoutController" customModule="PegasusPath" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="7L0-rw-j1F">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="oag-48-SgA">
-                                <rect key="frame" x="155.5" y="323.5" width="64.5" height="20.5"/>
-                                <subviews>
-                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="ln4-Lj-qfy">
-                                        <rect key="frame" x="0.0" y="0.0" width="64.5" height="20.5"/>
-                                        <subviews>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Success" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qfP-To-YYG">
-                                                <rect key="frame" x="0.0" y="0.0" width="64.5" height="20.5"/>
-                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                                <nil key="highlightedColor"/>
-                                            </label>
-                                        </subviews>
-                                    </stackView>
-                                </subviews>
-                            </stackView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Success" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qfP-To-YYG">
+                                <rect key="frame" x="155" y="245" width="64.5" height="20.5"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zTf-UP-Xqe">
+                                <rect key="frame" x="131" y="367" width="112" height="61"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="23"/>
+                                <state key="normal" title="Logout">
+                                    <color key="titleColor" red="0.154790229" green="0.54363825570000002" blue="0.84887062820000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="signoutButtonTapped:" destination="Xgl-h6-6Dp" eventType="touchUpInside" id="BPo-s5-qXD"/>
+                                    <action selector="signoutButtonTapped:" destination="nsF-Wy-FBQ" eventType="touchUpInside" id="ga7-m6-TQ9"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="0.61072411739999999" green="0.67402803680000001" blue="0.71907383420000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <color key="tintColor" red="0.61072411738634591" green="0.67402803682488521" blue="0.71907383419689119" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                        <constraints>
-                            <constraint firstItem="oag-48-SgA" firstAttribute="centerY" secondItem="7L0-rw-j1F" secondAttribute="centerY" id="E3N-PV-iyf"/>
-                            <constraint firstItem="oag-48-SgA" firstAttribute="centerX" secondItem="7L0-rw-j1F" secondAttribute="centerX" id="FS2-TC-UeZ"/>
-                        </constraints>
                         <viewLayoutGuide key="safeArea" id="O0C-Mg-xeU"/>
                     </view>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="show" identifier="signoutSegue" id="PFr-HK-bzV"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="wg1-Wd-PJ0" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <exit id="Xgl-h6-6Dp" userLabel="Exit" sceneMemberID="exit"/>
             </objects>
-            <point key="canvasLocation" x="174" y="17"/>
+            <point key="canvasLocation" x="356" y="17"/>
         </scene>
     </scenes>
 </document>

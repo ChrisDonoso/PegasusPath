@@ -10,7 +10,7 @@ import UIKit
 import Firebase
 import FirebaseAuth
 
-class LoginController: UIViewController {
+class ViewController: UIViewController {
 
     
     @IBOutlet weak var signinSelector: UISegmentedControl!
@@ -33,6 +33,8 @@ class LoginController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        firstTextField.isHidden = true
+        lastTextField.isHidden = true
     }
 
     override func didReceiveMemoryWarning() {
@@ -62,26 +64,27 @@ class LoginController: UIViewController {
         
         //TODO: Do some form validation on the email and password
         
-        if let email = emailTextField.text, let pass = passwordTextField.text {
+        if let email = emailTextField.text, let pass = passwordTextField.text, email != "", pass != "" {
             
             //Check if it's sign in or register
             if isSignIn {
                 //Sign in the user with Firebase
                 Auth.auth().signIn(withEmail: email, password: pass, completion: { (user, error) in
-                
+                    
                     //Check  that user isn't nil
                     if let u = user {
                         //user is found, go to home screen
                         self.performSegue(withIdentifier: "goToHome", sender: self)
                     }
                     else {
-                        // error: check error and show message
+                        AlertController.showAlert(self, title: "Error", message: (error?.localizedDescription)!)
+                        return
                     }
                 })
             }
             else {
                 //Register the user with Firebase
-                if let email = emailTextField.text, let pass = passwordTextField.text, let first = firstTextField.text, let last = lastTextField.text {
+                if let email = emailTextField.text, let pass = passwordTextField.text, let first = firstTextField.text, let last = lastTextField.text, email != "", pass != "", first != "", last != "" {
                     
                     Auth.auth().createUser(withEmail: email, password: pass, completion: { (user, error) in
                         
@@ -111,7 +114,15 @@ class LoginController: UIViewController {
                         }
                     })
                 }
+                else {
+                    AlertController.showAlert(self, title: "Missing Info", message: "Please fill out all field.")
+                    return
+                }
             }
+        }
+        else {
+            AlertController.showAlert(self, title: "Missing Info", message: "Please fill out all field.")
+            return
         }
     }
     
@@ -120,7 +131,31 @@ class LoginController: UIViewController {
         emailTextField.resignFirstResponder()
         passwordTextField.resignFirstResponder()
     }
+}
+
+class LogoutController: UIViewController {
     
-    
+    @IBAction func signoutButtonTapped(_ sender: Any) {
+        do {
+            try Auth.auth().signOut()
+            self.performSegue(withIdentifier: "signoutSegue", sender: self)
+            
+        }
+        catch let signOutError as NSError {
+            print("Error signing out: %@", signOutError)
+        }
+    }
+}
+
+class AlertController {
+    static func showAlert(_ inViewController: UIViewController, title: String, message: String) {
+        
+        let alert = UIAlertController(title: title, message: message, preferredStyle: .alert)
+        
+        let action = UIAlertAction(title: "OK", style: .default, handler: nil)
+        
+        alert.addAction(action)
+        inViewController.present(alert, animated: true, completion: nil)
+    }
 }
 
