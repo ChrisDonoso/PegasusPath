@@ -182,7 +182,6 @@
                                 <connections>
                                     <action selector="signoutButtonTapped:" destination="Xgl-h6-6Dp" eventType="touchUpInside" id="BPo-s5-qXD"/>
                                     <action selector="signoutButtonTapped:" destination="nsF-Wy-FBQ" eventType="touchUpInside" id="TYg-YO-DOX"/>
-                                    <segue destination="BYZ-38-t0r" kind="show" identifier="signoutSegue" id="3jg-Y2-iDQ"/>
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Success" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qfP-To-YYG">
@@ -199,6 +198,7 @@
                     </view>
                     <connections>
                         <outlet property="successMessage" destination="qfP-To-YYG" id="Okz-ev-873"/>
+                        <segue destination="BYZ-38-t0r" kind="show" identifier="signoutSegue" id="lRX-u0-plf"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="wg1-Wd-PJ0" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -209,6 +209,6 @@
     </scenes>
     <inferredMetricsTieBreakers>
         <segue reference="TqL-GJ-HvP"/>
-        <segue reference="3jg-Y2-iDQ"/>
+        <segue reference="lRX-u0-plf"/>
     </inferredMetricsTieBreakers>
 </document>

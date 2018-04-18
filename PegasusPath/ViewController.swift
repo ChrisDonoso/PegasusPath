@@ -104,7 +104,7 @@ class RegisterController: UIViewController {
     @IBAction func registerButtonTapped(_ sender: Any) {
         
         //Register the user with Firebase
-        if let email = emailTextField.text,
+        guard let email = emailTextField.text,
             let pass = passwordTextField.text,
             let confirmPass = confirmPassTextField.text,
             let first = firstTextField.text,
@@ -113,8 +113,16 @@ class RegisterController: UIViewController {
             pass != "",
             first != "",
             last != "",
-            confirmPass != "",
-            pass == confirmPass {
+            confirmPass != ""
+            else {
+                AlertController.showAlert(self, title: "Missing Info", message: "Please fill out all field.")
+                return
+        }
+        guard pass == confirmPass
+            else{
+                AlertController.showAlert(self, title: "Error", message: "Passwords do not match")
+                return
+        }
             
                 Auth.auth().createUser(withEmail: email, password: pass, completion: { (user, error) in
                 
@@ -146,11 +154,7 @@ class RegisterController: UIViewController {
                     return
                 }
             })
-        }
-        else {
-            AlertController.showAlert(self, title: "Missing Info", message: "Please fill out all field.")
-            return
-        }
+        
     }
     @IBAction func LinkToLoginTapped(_ sender: Any) {
         self.performSegue(withIdentifier: "goToLoginSegue", sender: self)
