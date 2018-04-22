@@ -1,0 +1,147 @@
+PODS:
+  - AWSCore (2.6.16)
+  - AWSPolly (2.6.16):
+    - AWSCore (= 2.6.16)
+  - BoringSSL (10.0.2):
+    - BoringSSL/Implementation (= 10.0.2)
+    - BoringSSL/Interface (= 10.0.2)
+  - BoringSSL/Implementation (10.0.2):
+    - BoringSSL/Interface (= 10.0.2)
+  - BoringSSL/Interface (10.0.2)
+  - Firebase/Auth (4.13.0):
+    - Firebase/Core
+    - FirebaseAuth (= 4.6.1)
+  - Firebase/Core (4.13.0):
+    - FirebaseAnalytics (= 4.2.0)
+    - FirebaseCore (= 4.0.20)
+  - Firebase/Database (4.13.0):
+    - Firebase/Core
+    - FirebaseDatabase (= 4.1.5)
+  - Firebase/Firestore (4.13.0):
+    - Firebase/Core
+    - FirebaseFirestore (= 0.11.0)
+  - FirebaseAnalytics (4.2.0):
+    - FirebaseCore (~> 4.0)
+    - FirebaseInstanceID (~> 2.0)
+    - GoogleToolboxForMac/NSData+zlib (~> 2.1)
+    - nanopb (~> 0.3)
+  - FirebaseAuth (4.6.1):
+    - FirebaseAnalytics (~> 4.2)
+    - GoogleToolboxForMac/NSDictionary+URLArguments (~> 2.1)
+    - GTMSessionFetcher/Core (~> 1.1)
+  - FirebaseCore (4.0.20):
+    - GoogleToolboxForMac/NSData+zlib (~> 2.1)
+  - FirebaseDatabase (4.1.5):
+    - FirebaseAnalytics (~> 4.1)
+    - FirebaseCore (~> 4.0)
+    - leveldb-library (~> 1.18)
+  - FirebaseFirestore (0.11.0):
+    - FirebaseAnalytics (~> 4.1)
+    - FirebaseCore (~> 4.0)
+    - gRPC-ProtoRPC (~> 1.0)
+    - leveldb-library (~> 1.18)
+    - Protobuf (~> 3.5)
+  - FirebaseInstanceID (2.0.10):
+    - FirebaseCore (~> 4.0)
+  - GoogleToolboxForMac/DebugUtils (2.1.3):
+    - GoogleToolboxForMac/Defines (= 2.1.3)
+  - GoogleToolboxForMac/Defines (2.1.3)
+  - GoogleToolboxForMac/NSData+zlib (2.1.3):
+    - GoogleToolboxForMac/Defines (= 2.1.3)
+  - GoogleToolboxForMac/NSDictionary+URLArguments (2.1.3):
+    - GoogleToolboxForMac/DebugUtils (= 2.1.3)
+    - GoogleToolboxForMac/Defines (= 2.1.3)
+    - GoogleToolboxForMac/NSString+URLArguments (= 2.1.3)
+  - GoogleToolboxForMac/NSString+URLArguments (2.1.3)
+  - gRPC (1.11.0):
+    - gRPC-RxLibrary (= 1.11.0)
+    - gRPC/Main (= 1.11.0)
+  - gRPC-Core (1.11.0):
+    - gRPC-Core/Implementation (= 1.11.0)
+    - gRPC-Core/Interface (= 1.11.0)
+  - gRPC-Core/Implementation (1.11.0):
+    - BoringSSL (~> 10.0)
+    - gRPC-Core/Interface (= 1.11.0)
+    - nanopb (~> 0.3)
+  - gRPC-Core/Interface (1.11.0)
+  - gRPC-ProtoRPC (1.11.0):
+    - gRPC (= 1.11.0)
+    - gRPC-RxLibrary (= 1.11.0)
+    - Protobuf (~> 3.0)
+  - gRPC-RxLibrary (1.11.0)
+  - gRPC/Main (1.11.0):
+    - gRPC-Core (= 1.11.0)
+    - gRPC-RxLibrary (= 1.11.0)
+  - GTMSessionFetcher/Core (1.1.15)
+  - leveldb-library (1.20)
+  - Mapbox-iOS-SDK (3.7.6)
+  - MapboxCoreNavigation (0.13.1):
+    - MapboxDirections.swift (~> 0.16.0)
+    - MapboxMobileEvents (~> 0.2)
+    - Turf (~> 0.0.4)
+  - MapboxDirections.swift (0.16.1):
+    - Polyline (~> 4.2)
+  - MapboxGeocoder.swift (0.8.1)
+  - MapboxMobileEvents (0.4.0)
+  - MapboxNavigation (0.13.1):
+    - AWSPolly (~> 2.6)
+    - Mapbox-iOS-SDK (~> 3.6)
+    - MapboxCoreNavigation (= 0.13.1)
+    - SDWebImage (~> 4.1)
+    - Solar (~> 2.1)
+    - Turf (~> 0.0.4)
+  - nanopb (0.3.8):
+    - nanopb/decode (= 0.3.8)
+    - nanopb/encode (= 0.3.8)
+  - nanopb/decode (0.3.8)
+  - nanopb/encode (0.3.8)
+  - Polyline (4.2.0)
+  - Protobuf (3.5.0)
+  - SDWebImage (4.3.3):
+    - SDWebImage/Core (= 4.3.3)
+  - SDWebImage/Core (4.3.3)
+  - Solar (2.1.0)
+  - Turf (0.0.4)
+
+DEPENDENCIES:
+  - Firebase/Auth
+  - Firebase/Core
+  - Firebase/Database
+  - Firebase/Firestore
+  - MapboxGeocoder.swift (~> 0.8)
+  - MapboxNavigation (~> 0.13.1)
+
+SPEC CHECKSUMS:
+  AWSCore: 314df68684e338310409c6a3b050e28932deb6ff
+  AWSPolly: 59309c8bc86e3ff986ff1f72b15fc3c119bbd023
+  BoringSSL: 60dd24df4af296bf41d78e5841dbb95d75f88c0d
+  Firebase: 5ec5e863d269d82d66b4bf56856726f8fb8f0fb3
+  FirebaseAnalytics: 7ef69e76a5142f643aeb47c780e1cdce4e23632e
+  FirebaseAuth: bf22cacf22c60ab454bf2636f556d8892b10b53f
+  FirebaseCore: 90cb1c53d69b556f112a1bf72b5fcfaad7650790
+  FirebaseDatabase: 5f0bc6134c5c237cf55f9e1249d406770a75eafd
+  FirebaseFirestore: e92a096ce80c7b4b905d4e9d41dbd944adc9d2a5
+  FirebaseInstanceID: 8d20d890d65c917f9f7d9950b6e10a760ad34321
+  GoogleToolboxForMac: 2501e2ad72a52eb3dfe7bd9aee7dad11b858bd20
+  gRPC: 70703dc9ba31c72341fc7f37745cc1c379edee96
+  gRPC-Core: 164639cd8ae18ca8b65477fafb2efbaecf4f181a
+  gRPC-ProtoRPC: bb5fddf3424aa4fad74d76736578a79fe40e244e
+  gRPC-RxLibrary: 26d53d1b1f306befd4ad4e15bd6de27839a82481
+  GTMSessionFetcher: 5fa5b80fd20e439ef5f545fb2cb3ca6c6714caa2
+  leveldb-library: 08cba283675b7ed2d99629a4bc5fd052cd2bb6a5
+  Mapbox-iOS-SDK: 23ececda1d90c3b436b45e2c88e9677f025303c0
+  MapboxCoreNavigation: c89faebae9137b90d7e82b32c86dba8b226c3005
+  MapboxDirections.swift: 750b7c94e7e1d85fcfe4ccc815423f33164178dc
+  MapboxGeocoder.swift: 354fccd4834bae4c5b792428559eb87d994d2cf5
+  MapboxMobileEvents: e71cf788a95fa0c01ad6ce17fd5efd13140af5ff
+  MapboxNavigation: 62e8b4b71208a1dacbd30f2abdd2e68ebbc7ec94
+  nanopb: 5601e6bca2dbf1ed831b519092ec110f66982ca3
+  Polyline: 3d69f75bb136357e27291d439d0436c6ebda57a4
+  Protobuf: 8a9838fba8dae3389230e1b7f8c104aa32389c03
+  SDWebImage: de4d90b5bff3571eae7bd16202b1f43135409fa5
+  Solar: 2dc6e7cc39186cb0c8228fa08df76fb50c7d8f24
+  Turf: 6c169618fa671e3f8a7b764b5b3332053ad6110e
+
+PODFILE CHECKSUM: 55e583259b67d2aa733527da312c484f28bfdaa2
+
+COCOAPODS: 1.4.0

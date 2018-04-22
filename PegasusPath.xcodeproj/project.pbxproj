@@ -7,12 +7,50 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9D1D9BE92086C09F00707131 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D1D9BE82086C09F00707131 /* LoginViewController.swift */; };
+		9D8050AA206C474F00C3F098 /* RatingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D8050A9206C474F00C3F098 /* RatingViewController.swift */; };
+		9D899DC82082B39800CA9FBE /* Thumbs Up.png in Resources */ = {isa = PBXBuildFile; fileRef = 9D899DC72082B39800CA9FBE /* Thumbs Up.png */; };
+		9D899DCA2082B3A100CA9FBE /* Thumbs Down.png in Resources */ = {isa = PBXBuildFile; fileRef = 9D899DC92082B3A100CA9FBE /* Thumbs Down.png */; };
 		9D8F4C3E203E2AA200A81D53 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D8F4C3D203E2AA200A81D53 /* AppDelegate.swift */; };
 		9D8F4C40203E2AA200A81D53 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D8F4C3F203E2AA200A81D53 /* ViewController.swift */; };
 		9D8F4C43203E2AA200A81D53 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9D8F4C41203E2AA200A81D53 /* Main.storyboard */; };
-		9D8F4C45203E2AA200A81D53 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9D8F4C44203E2AA200A81D53 /* Assets.xcassets */; };
 		9D8F4C48203E2AA200A81D53 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9D8F4C46203E2AA200A81D53 /* LaunchScreen.storyboard */; };
 		9D8F4C53203E2AA300A81D53 /* PegasusPathTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D8F4C52203E2AA300A81D53 /* PegasusPathTests.swift */; };
+		9DAD1FF92044B25D004E25D5 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 9DAD1FF82044B25D004E25D5 /* GoogleService-Info.plist */; };
+		9DBA916D2058C09F00A28C2A /* PopUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DBA916C2058C09F00A28C2A /* PopUpViewController.swift */; };
+		9DBA916F2058E86A00A28C2A /* NotificationNameExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DBA916E2058E86A00A28C2A /* NotificationNameExtension.swift */; };
+		DAFBB2124C967AFD9D3792C5 /* Pods_PegasusPath.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F2A8EB4D49F6B6B7531E6384 /* Pods_PegasusPath.framework */; };
+		F8C42B982088393400F6C16E /* HoshiTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8C42B8C2088393000F6C16E /* HoshiTextField.swift */; };
+		F8C42B992088393400F6C16E /* JiroTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8C42B8D2088393100F6C16E /* JiroTextField.swift */; };
+		F8C42B9A2088393400F6C16E /* TextFieldEffects.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8C42B8E2088393200F6C16E /* TextFieldEffects.swift */; };
+		F8C42B9B2088393400F6C16E /* YoshikoTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8C42B8F2088393200F6C16E /* YoshikoTextField.swift */; };
+		F8C42B9C2088393400F6C16E /* AkiraTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8C42B902088393200F6C16E /* AkiraTextField.swift */; };
+		F8C42B9D2088393400F6C16E /* KaedeTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8C42B912088393200F6C16E /* KaedeTextField.swift */; };
+		F8C42B9E2088393400F6C16E /* IsaoTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8C42B922088393300F6C16E /* IsaoTextField.swift */; };
+		F8C42B9F2088393400F6C16E /* MinoruTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8C42B932088393300F6C16E /* MinoruTextField.swift */; };
+		F8C42BA02088393400F6C16E /* YokoTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8C42B952088393300F6C16E /* YokoTextField.swift */; };
+		F8C42BA12088393400F6C16E /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = F8C42B962088393400F6C16E /* Info.plist */; };
+		F8C42BA22088393400F6C16E /* MadokaTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8C42B972088393400F6C16E /* MadokaTextField.swift */; };
+		F8C42BA520883FC900F6C16E /* LandingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8C42BA420883FC900F6C16E /* LandingViewController.swift */; };
+		F8C42BA72088401500F6C16E /* SignViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8C42BA62088401500F6C16E /* SignViewController.swift */; };
+		F8C42BA92088402E00F6C16E /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8C42BA82088402D00F6C16E /* SignUpViewController.swift */; };
+		F8C42BAB2088404100F6C16E /* RoundButt.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8C42BAA2088404100F6C16E /* RoundButt.swift */; };
+		F8C42BB02088414700F6C16E /* LANDING_00000.png in Resources */ = {isa = PBXBuildFile; fileRef = F8C42BAC2088414400F6C16E /* LANDING_00000.png */; };
+		F8C42BB12088414700F6C16E /* LogIn1.png in Resources */ = {isa = PBXBuildFile; fileRef = F8C42BAD2088414500F6C16E /* LogIn1.png */; };
+		F8C42BB22088414700F6C16E /* LogIn3.png in Resources */ = {isa = PBXBuildFile; fileRef = F8C42BAE2088414600F6C16E /* LogIn3.png */; };
+		F8C42BB32088414700F6C16E /* LogIn2.png in Resources */ = {isa = PBXBuildFile; fileRef = F8C42BAF2088414600F6C16E /* LogIn2.png */; };
+		F8C42BC2208A2DEF00F6C16E /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8C42BC1208A2DEF00F6C16E /* HomeViewController.swift */; };
+		F8C42BCC208A61CC00F6C16E /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = F8C42BC3208A61B200F6C16E /* icon.png */; };
+		F8C42BCD208A61CC00F6C16E /* 3.png in Resources */ = {isa = PBXBuildFile; fileRef = F8C42BC4208A61B200F6C16E /* 3.png */; };
+		F8C42BCE208A61CC00F6C16E /* 4.png in Resources */ = {isa = PBXBuildFile; fileRef = F8C42BC5208A61B300F6C16E /* 4.png */; };
+		F8C42BCF208A61CC00F6C16E /* 0.png in Resources */ = {isa = PBXBuildFile; fileRef = F8C42BC6208A61B700F6C16E /* 0.png */; };
+		F8C42BD0208A61CC00F6C16E /* 2.png in Resources */ = {isa = PBXBuildFile; fileRef = F8C42BC7208A61B900F6C16E /* 2.png */; };
+		F8C42BD1208A61CC00F6C16E /* splash.png in Resources */ = {isa = PBXBuildFile; fileRef = F8C42BC8208A61BF00F6C16E /* splash.png */; };
+		F8C42BD2208A61CC00F6C16E /* thumb.png in Resources */ = {isa = PBXBuildFile; fileRef = F8C42BC9208A61C100F6C16E /* thumb.png */; };
+		F8C42BD3208A61CC00F6C16E /* title.png in Resources */ = {isa = PBXBuildFile; fileRef = F8C42BCA208A61C900F6C16E /* title.png */; };
+		F8C42BD4208A61CC00F6C16E /* 1.png in Resources */ = {isa = PBXBuildFile; fileRef = F8C42BCB208A61CB00F6C16E /* 1.png */; };
+		F8C42BDB208A684500F6C16E /* thumbDown.png in Resources */ = {isa = PBXBuildFile; fileRef = F8C42BD9208A683100F6C16E /* thumbDown.png */; };
+		F8C42BDC208A684500F6C16E /* thumpUp.png in Resources */ = {isa = PBXBuildFile; fileRef = F8C42BDA208A683300F6C16E /* thumpUp.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -26,16 +64,58 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		939C48C224FB5E6DC7F8412F /* Pods-PegasusPath.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PegasusPath.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PegasusPath/Pods-PegasusPath.debug.xcconfig"; sourceTree = "<group>"; };
+		9D1D9BE82086C09F00707131 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		9D40383520433AD2008B73F3 /* MapboxCoreNavigation.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = MapboxCoreNavigation.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9D8050A9206C474F00C3F098 /* RatingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RatingViewController.swift; sourceTree = "<group>"; };
+		9D899DC72082B39800CA9FBE /* Thumbs Up.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Thumbs Up.png"; sourceTree = "<group>"; };
+		9D899DC92082B3A100CA9FBE /* Thumbs Down.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Thumbs Down.png"; sourceTree = "<group>"; };
 		9D8F4C3A203E2AA200A81D53 /* PegasusPath.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PegasusPath.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9D8F4C3D203E2AA200A81D53 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9D8F4C3F203E2AA200A81D53 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		9D8F4C42203E2AA200A81D53 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		9D8F4C44203E2AA200A81D53 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9D8F4C47203E2AA200A81D53 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9D8F4C49203E2AA200A81D53 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9D8F4C4E203E2AA300A81D53 /* PegasusPathTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PegasusPathTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9D8F4C52203E2AA300A81D53 /* PegasusPathTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PegasusPathTests.swift; sourceTree = "<group>"; };
 		9D8F4C54203E2AA300A81D53 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9DAD1FF82044B25D004E25D5 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		9DBA916C2058C09F00A28C2A /* PopUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopUpViewController.swift; sourceTree = "<group>"; };
+		9DBA916E2058E86A00A28C2A /* NotificationNameExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationNameExtension.swift; sourceTree = "<group>"; };
+		ABE74A42E3D0ED5085C1A1FB /* Pods-PegasusPath.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PegasusPath.release.xcconfig"; path = "Pods/Target Support Files/Pods-PegasusPath/Pods-PegasusPath.release.xcconfig"; sourceTree = "<group>"; };
+		F2A8EB4D49F6B6B7531E6384 /* Pods_PegasusPath.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PegasusPath.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F8C42B8C2088393000F6C16E /* HoshiTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HoshiTextField.swift; sourceTree = "<group>"; };
+		F8C42B8D2088393100F6C16E /* JiroTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JiroTextField.swift; sourceTree = "<group>"; };
+		F8C42B8E2088393200F6C16E /* TextFieldEffects.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TextFieldEffects.swift; sourceTree = "<group>"; };
+		F8C42B8F2088393200F6C16E /* YoshikoTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YoshikoTextField.swift; sourceTree = "<group>"; };
+		F8C42B902088393200F6C16E /* AkiraTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AkiraTextField.swift; sourceTree = "<group>"; };
+		F8C42B912088393200F6C16E /* KaedeTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KaedeTextField.swift; sourceTree = "<group>"; };
+		F8C42B922088393300F6C16E /* IsaoTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IsaoTextField.swift; sourceTree = "<group>"; };
+		F8C42B932088393300F6C16E /* MinoruTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MinoruTextField.swift; sourceTree = "<group>"; };
+		F8C42B942088393300F6C16E /* TextFieldEffects.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TextFieldEffects.h; sourceTree = "<group>"; };
+		F8C42B952088393300F6C16E /* YokoTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YokoTextField.swift; sourceTree = "<group>"; };
+		F8C42B962088393400F6C16E /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F8C42B972088393400F6C16E /* MadokaTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MadokaTextField.swift; sourceTree = "<group>"; };
+		F8C42BA420883FC900F6C16E /* LandingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandingViewController.swift; sourceTree = "<group>"; };
+		F8C42BA62088401500F6C16E /* SignViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignViewController.swift; sourceTree = "<group>"; };
+		F8C42BA82088402D00F6C16E /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		F8C42BAA2088404100F6C16E /* RoundButt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundButt.swift; sourceTree = "<group>"; };
+		F8C42BAC2088414400F6C16E /* LANDING_00000.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = LANDING_00000.png; sourceTree = "<group>"; };
+		F8C42BAD2088414500F6C16E /* LogIn1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = LogIn1.png; sourceTree = "<group>"; };
+		F8C42BAE2088414600F6C16E /* LogIn3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = LogIn3.png; sourceTree = "<group>"; };
+		F8C42BAF2088414600F6C16E /* LogIn2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = LogIn2.png; sourceTree = "<group>"; };
+		F8C42BC1208A2DEF00F6C16E /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		F8C42BC3208A61B200F6C16E /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
+		F8C42BC4208A61B200F6C16E /* 3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 3.png; sourceTree = "<group>"; };
+		F8C42BC5208A61B300F6C16E /* 4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 4.png; sourceTree = "<group>"; };
+		F8C42BC6208A61B700F6C16E /* 0.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 0.png; sourceTree = "<group>"; };
+		F8C42BC7208A61B900F6C16E /* 2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 2.png; sourceTree = "<group>"; };
+		F8C42BC8208A61BF00F6C16E /* splash.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = splash.png; sourceTree = "<group>"; };
+		F8C42BC9208A61C100F6C16E /* thumb.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = thumb.png; sourceTree = "<group>"; };
+		F8C42BCA208A61C900F6C16E /* title.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = title.png; sourceTree = "<group>"; };
+		F8C42BCB208A61CB00F6C16E /* 1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 1.png; sourceTree = "<group>"; };
+		F8C42BD9208A683100F6C16E /* thumbDown.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = thumbDown.png; sourceTree = "<group>"; };
+		F8C42BDA208A683300F6C16E /* thumpUp.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = thumpUp.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,6 +123,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DAFBB2124C967AFD9D3792C5 /* Pods_PegasusPath.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -56,12 +137,27 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		33217ED20B13062ACF3BB997 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				939C48C224FB5E6DC7F8412F /* Pods-PegasusPath.debug.xcconfig */,
+				ABE74A42E3D0ED5085C1A1FB /* Pods-PegasusPath.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		9D8F4C31203E2AA200A81D53 = {
 			isa = PBXGroup;
 			children = (
+				9D899DC92082B3A100CA9FBE /* Thumbs Down.png */,
+				9D899DC72082B39800CA9FBE /* Thumbs Up.png */,
+				F8C42BA32088395900F6C16E /* graphics */,
+				F8C42BB6208847AC00F6C16E /* GUI */,
 				9D8F4C3C203E2AA200A81D53 /* PegasusPath */,
 				9D8F4C51203E2AA300A81D53 /* PegasusPathTests */,
 				9D8F4C3B203E2AA200A81D53 /* Products */,
+				33217ED20B13062ACF3BB997 /* Pods */,
+				B8FC1F34E75D318ED2B36368 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -77,12 +173,20 @@
 		9D8F4C3C203E2AA200A81D53 /* PegasusPath */ = {
 			isa = PBXGroup;
 			children = (
+				F8C42BC1208A2DEF00F6C16E /* HomeViewController.swift */,
 				9D8F4C3D203E2AA200A81D53 /* AppDelegate.swift */,
 				9D8F4C3F203E2AA200A81D53 /* ViewController.swift */,
+				9D1D9BE82086C09F00707131 /* LoginViewController.swift */,
+				9DBA916C2058C09F00A28C2A /* PopUpViewController.swift */,
+				9D8050A9206C474F00C3F098 /* RatingViewController.swift */,
+				9DBA916E2058E86A00A28C2A /* NotificationNameExtension.swift */,
 				9D8F4C41203E2AA200A81D53 /* Main.storyboard */,
-				9D8F4C44203E2AA200A81D53 /* Assets.xcassets */,
+				F8C42BA62088401500F6C16E /* SignViewController.swift */,
+				F8C42BA82088402D00F6C16E /* SignUpViewController.swift */,
+				F8C42BA420883FC900F6C16E /* LandingViewController.swift */,
 				9D8F4C46203E2AA200A81D53 /* LaunchScreen.storyboard */,
 				9D8F4C49203E2AA200A81D53 /* Info.plist */,
+				9DAD1FF82044B25D004E25D5 /* GoogleService-Info.plist */,
 			);
 			path = PegasusPath;
 			sourceTree = "<group>";
@@ -96,6 +200,57 @@
 			path = PegasusPathTests;
 			sourceTree = "<group>";
 		};
+		B8FC1F34E75D318ED2B36368 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9D40383520433AD2008B73F3 /* MapboxCoreNavigation.framework */,
+				F2A8EB4D49F6B6B7531E6384 /* Pods_PegasusPath.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F8C42BA32088395900F6C16E /* graphics */ = {
+			isa = PBXGroup;
+			children = (
+				F8C42BC6208A61B700F6C16E /* 0.png */,
+				F8C42BCB208A61CB00F6C16E /* 1.png */,
+				F8C42BC7208A61B900F6C16E /* 2.png */,
+				F8C42BC4208A61B200F6C16E /* 3.png */,
+				F8C42BC5208A61B300F6C16E /* 4.png */,
+				F8C42BC3208A61B200F6C16E /* icon.png */,
+				F8C42BC8208A61BF00F6C16E /* splash.png */,
+				F8C42BD9208A683100F6C16E /* thumbDown.png */,
+				F8C42BDA208A683300F6C16E /* thumpUp.png */,
+				F8C42BC9208A61C100F6C16E /* thumb.png */,
+				F8C42BCA208A61C900F6C16E /* title.png */,
+				F8C42BAC2088414400F6C16E /* LANDING_00000.png */,
+				F8C42BAD2088414500F6C16E /* LogIn1.png */,
+				F8C42BAF2088414600F6C16E /* LogIn2.png */,
+				F8C42BAE2088414600F6C16E /* LogIn3.png */,
+			);
+			path = graphics;
+			sourceTree = "<group>";
+		};
+		F8C42BB6208847AC00F6C16E /* GUI */ = {
+			isa = PBXGroup;
+			children = (
+				F8C42B902088393200F6C16E /* AkiraTextField.swift */,
+				F8C42B8C2088393000F6C16E /* HoshiTextField.swift */,
+				F8C42B962088393400F6C16E /* Info.plist */,
+				F8C42B922088393300F6C16E /* IsaoTextField.swift */,
+				F8C42B8D2088393100F6C16E /* JiroTextField.swift */,
+				F8C42B912088393200F6C16E /* KaedeTextField.swift */,
+				F8C42B972088393400F6C16E /* MadokaTextField.swift */,
+				F8C42B932088393300F6C16E /* MinoruTextField.swift */,
+				F8C42B942088393300F6C16E /* TextFieldEffects.h */,
+				F8C42B8E2088393200F6C16E /* TextFieldEffects.swift */,
+				F8C42B952088393300F6C16E /* YokoTextField.swift */,
+				F8C42B8F2088393200F6C16E /* YoshikoTextField.swift */,
+				F8C42BAA2088404100F6C16E /* RoundButt.swift */,
+			);
+			name = GUI;
+			sourceTree = SOURCE_ROOT;
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -103,9 +258,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 9D8F4C57203E2AA300A81D53 /* Build configuration list for PBXNativeTarget "PegasusPath" */;
 			buildPhases = (
+				3BD596285567F9ED82EF860D /* [CP] Check Pods Manifest.lock */,
 				9D8F4C36203E2AA200A81D53 /* Sources */,
 				9D8F4C37203E2AA200A81D53 /* Frameworks */,
 				9D8F4C38203E2AA200A81D53 /* Resources */,
+				90FB01149F752C454DF9297C /* [CP] Embed Pods Frameworks */,
+				7B796F0C00CB3EEA538BF451 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -141,7 +299,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0920;
-				LastUpgradeCheck = 0920;
+				LastUpgradeCheck = 0930;
 				ORGANIZATIONNAME = "Christopher Donoso";
 				TargetAttributes = {
 					9D8F4C39203E2AA200A81D53 = {
@@ -179,9 +337,27 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F8C42BB02088414700F6C16E /* LANDING_00000.png in Resources */,
+				F8C42BB22088414700F6C16E /* LogIn3.png in Resources */,
 				9D8F4C48203E2AA200A81D53 /* LaunchScreen.storyboard in Resources */,
-				9D8F4C45203E2AA200A81D53 /* Assets.xcassets in Resources */,
+				F8C42BCE208A61CC00F6C16E /* 4.png in Resources */,
+				F8C42BCD208A61CC00F6C16E /* 3.png in Resources */,
+				F8C42BDC208A684500F6C16E /* thumpUp.png in Resources */,
+				F8C42BD2208A61CC00F6C16E /* thumb.png in Resources */,
+				9DAD1FF92044B25D004E25D5 /* GoogleService-Info.plist in Resources */,
+				F8C42BA12088393400F6C16E /* Info.plist in Resources */,
+				F8C42BD4208A61CC00F6C16E /* 1.png in Resources */,
+				F8C42BD3208A61CC00F6C16E /* title.png in Resources */,
+				9D899DC82082B39800CA9FBE /* Thumbs Up.png in Resources */,
+				F8C42BD1208A61CC00F6C16E /* splash.png in Resources */,
+				F8C42BCC208A61CC00F6C16E /* icon.png in Resources */,
+				F8C42BB32088414700F6C16E /* LogIn2.png in Resources */,
+				F8C42BCF208A61CC00F6C16E /* 0.png in Resources */,
 				9D8F4C43203E2AA200A81D53 /* Main.storyboard in Resources */,
+				F8C42BDB208A684500F6C16E /* thumbDown.png in Resources */,
+				F8C42BD0208A61CC00F6C16E /* 2.png in Resources */,
+				9D899DCA2082B3A100CA9FBE /* Thumbs Down.png in Resources */,
+				F8C42BB12088414700F6C16E /* LogIn1.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -194,13 +370,130 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		3BD596285567F9ED82EF860D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PegasusPath-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7B796F0C00CB3EEA538BF451 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PegasusPath/Pods-PegasusPath-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		90FB01149F752C454DF9297C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-PegasusPath/Pods-PegasusPath-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/AWSCore/AWSCore.framework",
+				"${BUILT_PRODUCTS_DIR}/AWSPolly/AWSPolly.framework",
+				"${BUILT_PRODUCTS_DIR}/BoringSSL/openssl.framework",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${PODS_ROOT}/Mapbox-iOS-SDK/dynamic/Mapbox.framework",
+				"${PODS_ROOT}/Mapbox-iOS-SDK/dynamic/Mapbox.framework.dSYM",
+				"${BUILT_PRODUCTS_DIR}/MapboxCoreNavigation/MapboxCoreNavigation.framework",
+				"${BUILT_PRODUCTS_DIR}/MapboxDirections.swift/MapboxDirections.framework",
+				"${BUILT_PRODUCTS_DIR}/MapboxGeocoder.swift/MapboxGeocoder.framework",
+				"${BUILT_PRODUCTS_DIR}/MapboxMobileEvents/MapboxMobileEvents.framework",
+				"${BUILT_PRODUCTS_DIR}/MapboxNavigation/MapboxNavigation.framework",
+				"${BUILT_PRODUCTS_DIR}/Polyline/Polyline.framework",
+				"${BUILT_PRODUCTS_DIR}/Protobuf/Protobuf.framework",
+				"${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework",
+				"${BUILT_PRODUCTS_DIR}/Solar/Solar.framework",
+				"${BUILT_PRODUCTS_DIR}/Turf/Turf.framework",
+				"${BUILT_PRODUCTS_DIR}/gRPC/GRPCClient.framework",
+				"${BUILT_PRODUCTS_DIR}/gRPC-Core/grpc.framework",
+				"${BUILT_PRODUCTS_DIR}/gRPC-ProtoRPC/ProtoRPC.framework",
+				"${BUILT_PRODUCTS_DIR}/gRPC-RxLibrary/RxLibrary.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AWSCore.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AWSPolly.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/openssl.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Mapbox.framework",
+				"${DWARF_DSYM_FOLDER_PATH}/Mapbox.framework.dSYM",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MapboxCoreNavigation.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MapboxDirections.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MapboxGeocoder.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MapboxMobileEvents.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MapboxNavigation.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Polyline.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Protobuf.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SDWebImage.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Solar.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Turf.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GRPCClient.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/grpc.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ProtoRPC.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxLibrary.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PegasusPath/Pods-PegasusPath-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		9D8F4C36203E2AA200A81D53 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9D1D9BE92086C09F00707131 /* LoginViewController.swift in Sources */,
+				F8C42B982088393400F6C16E /* HoshiTextField.swift in Sources */,
 				9D8F4C40203E2AA200A81D53 /* ViewController.swift in Sources */,
+				F8C42B992088393400F6C16E /* JiroTextField.swift in Sources */,
+				9D8050AA206C474F00C3F098 /* RatingViewController.swift in Sources */,
+				F8C42BC2208A2DEF00F6C16E /* HomeViewController.swift in Sources */,
+				9DBA916D2058C09F00A28C2A /* PopUpViewController.swift in Sources */,
+				F8C42BA22088393400F6C16E /* MadokaTextField.swift in Sources */,
+				F8C42BA92088402E00F6C16E /* SignUpViewController.swift in Sources */,
+				F8C42BA72088401500F6C16E /* SignViewController.swift in Sources */,
+				F8C42B9D2088393400F6C16E /* KaedeTextField.swift in Sources */,
+				F8C42B9B2088393400F6C16E /* YoshikoTextField.swift in Sources */,
+				F8C42B9E2088393400F6C16E /* IsaoTextField.swift in Sources */,
 				9D8F4C3E203E2AA200A81D53 /* AppDelegate.swift in Sources */,
+				9DBA916F2058E86A00A28C2A /* NotificationNameExtension.swift in Sources */,
+				F8C42BA02088393400F6C16E /* YokoTextField.swift in Sources */,
+				F8C42BA520883FC900F6C16E /* LandingViewController.swift in Sources */,
+				F8C42B9A2088393400F6C16E /* TextFieldEffects.swift in Sources */,
+				F8C42BAB2088404100F6C16E /* RoundButt.swift in Sources */,
+				F8C42B9C2088393400F6C16E /* AkiraTextField.swift in Sources */,
+				F8C42B9F2088393400F6C16E /* MinoruTextField.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -256,6 +549,7 @@
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
@@ -263,6 +557,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
@@ -313,6 +608,7 @@
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
@@ -320,6 +616,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
@@ -351,10 +648,26 @@
 		};
 		9D8F4C58203E2AA300A81D53 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 939C48C224FB5E6DC7F8412F /* Pods-PegasusPath.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = BU932GPG3C;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/AWSCore\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/AWSPolly\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/MapboxCoreNavigation\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/MapboxDirections.swift\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/MapboxMobileEvents\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/MapboxNavigation\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/Polyline\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/SDWebImage\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/Solar\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/Turf\"",
+					"\"${PODS_ROOT}/Mapbox-iOS-SDK/dynamic\"",
+					"$(SRCROOT)",
+				);
 				INFOPLIST_FILE = PegasusPath/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Feferuchi.PegasusPath;
@@ -366,10 +679,26 @@
 		};
 		9D8F4C59203E2AA300A81D53 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = ABE74A42E3D0ED5085C1A1FB /* Pods-PegasusPath.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = BU932GPG3C;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/AWSCore\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/AWSPolly\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/MapboxCoreNavigation\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/MapboxDirections.swift\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/MapboxMobileEvents\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/MapboxNavigation\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/Polyline\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/SDWebImage\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/Solar\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/Turf\"",
+					"\"${PODS_ROOT}/Mapbox-iOS-SDK/dynamic\"",
+					"$(SRCROOT)",
+				);
 				INFOPLIST_FILE = PegasusPath/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Feferuchi.PegasusPath;
