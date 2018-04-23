@@ -135,6 +135,28 @@ class LoginViewController: UIViewController {
 
 class LogoutController: UIViewController {
     
+    @IBOutlet weak var emailText: UILabel!
+    
+    @IBOutlet weak var uidText: UILabel!
+    
+    override func viewDidLoad() {
+        super.viewDidLoad()
+        
+        let user = Auth.auth().currentUser
+        if let user = user {
+            let email = user.email
+            let uid = user.uid
+
+            emailText.text = "Email: \(email!)"
+            uidText.text = "User ID: \(uid)"
+
+        }
+
+    }
+
+    @IBAction func goBackButtonTapped(_ sender: Any) {
+        self.performSegue(withIdentifier: "goBackSegue", sender: self)
+    }
     @IBAction func signoutButtonTapped(_ sender: Any) {
         do {
             try Auth.auth().signOut()

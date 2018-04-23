@@ -39,7 +39,7 @@ class SignViewController: UIViewController {
                 //Check  that user isn't nil
                 if let u = user {
                     //user is found, go to home screen
-                    self.performSegue(withIdentifier: "loginToHome", sender: self)
+                    self.performSegue(withIdentifier: "loginSegue", sender: self)
                 }
                 else {
                     AlertController.showAlert(self, title: "Error", message: (error?.localizedDescription)!)

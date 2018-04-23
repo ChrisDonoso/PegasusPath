@@ -75,7 +75,7 @@ class SignUpViewController: UIViewController {
             //check that user isn't nil
             if let u = user {
                 //user is found, go to homescreen
-                self.performSegue(withIdentifier: "registerToHome", sender: self)
+                self.performSegue(withIdentifier: "registerSegue", sender: self)
             }
                 
             else {

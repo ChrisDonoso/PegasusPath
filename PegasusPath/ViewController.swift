@@ -149,6 +149,7 @@ class ViewController: UIViewController, MGLMapViewDelegate {
         coordinate = mapView.convert(point, toCoordinateFrom: mapView)
 
     }
+
     
     // Implement the delegate method that allows annotations to show callouts when tapped
     func mapView(_ mapView: MGLMapView, annotationCanShowCallout annotation: MGLAnnotation) -> Bool {
@@ -388,3 +389,4 @@ class ViewController: UIViewController, MGLMapViewDelegate {
         }
     }
 }
+

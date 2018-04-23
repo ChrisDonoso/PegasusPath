@@ -75,7 +75,19 @@ class PopUpViewController: UIViewController, UITextFieldDelegate {
         // Pass the selected object to the new view controller.
     }
     */
-
+    @IBAction func settingButtonTapped(_ sender: UIButton!) {
+        
+//        self.performSegue(withIdentifier: "settingSegue", sender: self)
+//        self.removeAnimate()
+        let storyBoard : UIStoryboard = UIStoryboard(name: "Main", bundle:nil)
+        
+        let nextViewController = storyBoard.instantiateViewController(withIdentifier: "LogoutController") as! LogoutController
+        self.present(nextViewController, animated:true, completion:nil)
+        
+        self.removeAnimate()
+        
+    }
+    
 }
 
 extension ViewController : UITextFieldDelegate {
